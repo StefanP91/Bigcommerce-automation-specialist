@@ -1,0 +1,96 @@
+[2026-04-27 15:43:43] PAYLOAD: {"producer":"stores/ljloonmrju","hash":"377b6191364d2fd5aeda06248b8fe256d52d0841","created_at":1777297421,"store_id":"1003469060","scope":"store/product/updated","data":{"type":"product","id":202}}
+[2026-04-27 15:46:10] Вебхук примен за ID 202, но не можев да ги земам деталите.
+[2026-04-27 15:47:47] Вебхук примен за ID 202, но не можев да ги земам деталите.
+[2026-04-27 15:48:43] Проверка за ID: 202 | Статус: 403 | Одговор: {"status":403,"title":"You don't have a required scope to access the endpoint","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{}} 
+[2026-04-27 15:55:17] Проверка за ID: 202 | Статус: 200 | Одговор: {"data":{"id":202,"name":"Digital Photo Frame","type":"physical","sku":"CE-0030","description":"","weight":5,"width":0,"depth":0,"height":0,"price":100,"cost_price":0,"retail_price":0,"sale_price":0,"map_price":0,"tax_class_id":0,"product_tax_code":"","calculated_price":100,"categories":[26],"brand_id":0,"option_set_id":null,"option_set_display":"right","inventory_level":52,"inventory_warning_level":0,"inventory_tracking":"none","reviews_rating_sum":0,"reviews_count":0,"total_sold":0,"fixed_cost_shipping_price":0,"is_free_shipping":false,"is_visible":true,"is_featured":false,"related_products":[-1],"warranty":"","bin_picking_number":"","layout_file":"","upc":"","mpn":"","gtin":"","date_last_imported":null,"search_keywords":"","availability":"available","availability_description":"","gift_wrapping_options_type":"any","gift_wrapping_options_list":[],"sort_order":0,"condition":"New","is_condition_shown":false,"order_quantity_minimum":0,"order_quantity_maximum":0,"page_title":"","meta_keywords":[],"meta_description":"","date_created":"2026-04-27T09:20:39+00:00","date_modified":"2026-04-27T13:47:43+00:00","view_count":0,"preorder_release_date":null,"preorder_message":"","is_preorder_only":false,"is_price_hidden":false,"price_hidden_label":"","custom_url":{"url":"\/digital-photo-frame\/","is_customized":false},"base_variant_id":170,"open_graph_type":"product","open_graph_title":"","open_graph_description":"","open_graph_use_meta_description":true,"open_graph_use_product_name":true,"open_graph_use_image":true},"meta":{}} 
+[2026-04-27 16:02:12] Барање за продукт ID: 202
+[2026-04-27 16:02:13] УСПЕХ: Metafield ажуриран/креиран. (Status 200)
+[2026-04-27 16:16:21] Процесирање за ID: 202
+[2026-04-27 16:16:21] ГРЕШКА: Статус 422
+[2026-04-27 16:17:41] Процесирање за ID: 202
+[2026-04-27 16:17:41] ГРЕШКА: Статус 422
+[2026-04-27 16:18] Процесирање за ID: 202
+[2026-04-27 16:18] ГРЕШКА 422 ОДГОВОР: {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[2026-04-27 16:19:46] Процесирање за ID: 202
+[2026-04-27 16:19:46] ФИНАЛНА ГРЕШКА: 422 | {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[2026-04-27 16:20:35] Старт на процесирање за ID: 202
+[2026-04-27 16:20:35] ГРЕШКА: Статус 422 | {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[2026-04-27 16:21:40] Старт за ID: 202
+[2026-04-27 16:21:40] ГРЕШКА: 422 | {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[2026-04-27 16:22:23] Обид со RAW JSON за ID: 202
+[2026-04-27 16:22:23] ГРЕШКА: 422 | {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[27-04-2026 16:23] Тест за ID: 202
+[27-04-2026 16:23] ГРЕШКА 422: {"status":422,"title":"Missing Required Fields","type":"https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes","errors":{"value":"Please provide a value."}}
+[2026-04-27 16:30:13] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:13] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:17] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:17] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:19] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:19] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:23] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:23] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:27] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:27] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:30] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:30] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:35] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:35] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:37] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:37] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:41] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:41] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:44] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:44] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:47] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:47] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:51] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:51] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:56] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:56] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:30:58] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:30:58] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:01] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:01] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:04] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:04] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:08] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:08] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:11] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:11] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:14] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:14] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:18] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:18] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:22] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:22] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:26] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:26] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:29] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:29] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:32] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:32] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:36] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:36] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:40] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:40] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:43] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:43] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:46] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:46] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:49] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:49] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:52] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:52] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:56] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:56] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:31:59] Обид за Storefront ажурирање за ID: 202
+[2026-04-27 16:31:59] УСПЕХ: Описот е ажуриран на Storefront!
+[2026-04-27 16:32:03] Процесирање (без луп) за ID: 202
+[2026-04-27 16:32:03] УСПЕШНО ЗАВРШЕНО.
+[2026-04-27 16:32:33] Процесирање (без луп) за ID: 202
+[2026-04-27 16:32:33] УСПЕШНО ЗАВРШЕНО.
+[2026-04-27 16:32:33] УСПЕШНО ЗАВРШЕНО.
+[2026-04-27 16:35:25] Processing for ID: 202
+[2026-04-27 16:35:25] SUCCESSFULLY FINISHED.
+[2026-04-27 16:35:35] Processing for ID: 202
+[2026-04-27 16:35:35] SUCCESSFULLY FINISHED.
